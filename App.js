@@ -2,7 +2,7 @@ import React from 'react';
 
 class App extends React.Component {
 	render() {
-		return <div>Hello from React Component</div>
+		return React.createElement('div', null, 'No JSX component');
 	}
 }
 
